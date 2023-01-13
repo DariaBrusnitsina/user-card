@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(216, 210, 218);
+  display: flex;
+  justify-content: center;
+}
+
+.card-title {
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: 25px;
+}
+
+.card-text {
+  text-align: center;
+  color: gray;
+}
+
+.item__name {
+  font-weight: bold;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.modal-body p{
+  text-align: center;
+}
+
+.modal-body {
+  text-align: right;
+}
+
+.modal {
+  margin-top: 200px;
+}
+
+.blur {
+  filter: blur(2px);
+}
