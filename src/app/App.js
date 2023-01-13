@@ -8,8 +8,8 @@ function App() {
     return (
     <div>
         <Switch>
-            <Route path="/" component={Card}/>
             <Route path="/edit" component={Edit}/>
+            <Route path="/" component={Card}/>
         </Switch>
     </div>
     );
